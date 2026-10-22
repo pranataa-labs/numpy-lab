@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
-  <a href="https://colab.research.google.com/github/pranataa-labs/numpy-lab/blob/main/numpy_lab_50_sesi.ipynb" target="_blank">
+  <a href="https://colab.research.google.com/github/pranataa-labs/numpy-lab/blob/main/belajar-numpy.ipynb" target="_blank">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" style="height: 28px;"/>
   </a>
 </p>
@@ -26,7 +26,7 @@ Repositori latihan interaktif untuk belajar komputasi numerik, manipulasi array 
 ## 🚀 Cara Menjalankan
 
 ### Opsi A: Google Colab
-Klik badge **Open in Colab** di atas atau buka file `numpy_lab_50_sesi.ipynb` langsung di Google Colab.
+Klik badge **Open in Colab** di atas atau buka file `belajar-numpy.ipynb` langsung di Google Colab.
 
 ### Opsi B: Lokal / JupyterLab
 ```bash

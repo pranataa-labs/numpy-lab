@@ -1,49 +1,49 @@
-# 🔢 NumPy Lab (75 Topik Komprehensif)
+# 🔢 NumPy Lab (Comprehensive 75-Topic Masterclass)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
-  <a href="https://colab.research.google.com/github/pranataa-labs/numpy-lab/blob/main/belajar-numpy.ipynb" target="_blank">
+  <a href="https://colab.research.google.com/github/pranataa-labs/NumPy-Lab/blob/main/belajar-numpy.ipynb" target="_blank">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" style="height: 28px;"/>
   </a>
 </p>
 
-Repositori modul dan latihan interaktif komprehensif (75 topik) untuk komputasi numerik, aljabar linear tingkat lanjut, dekomposisi matriks, transformasi Fourier, dan manipulasi tensor menggunakan **NumPy** di Google Colab atau JupyterLab.
+An interactive 75-topic masterclass repository for numerical computing, advanced linear algebra, matrix decomposition, Fourier transforms, and tensor manipulations using **NumPy** on Google Colab or JupyterLab.
 
 ---
 
-## 📌 Topik Pembelajaran
+## 📌 Curriculum & Core Learning Modules
 
-- **Pembuatan Array Dasar**: Import NumPy, Array 1D/2D/3D, Atribut (`ndim`, `shape`, `size`, `dtype`), `zeros`, `ones`, `empty`, `full`, `arange`, `linspace`, Bilangan Acak (`rand`, `randn`, `randint`).
-- **Indeksasi, Slicing & Seleksi**: Indeksasi 1D/2D, Slicing Matriks, Boolean Indexing, Fancy Indexing, Kondisional `np.where`, Pencarian Posisi (`argwhere`, `nonzero`), Nilai Ekstrem (`argmax`, `argmin`), Pengurutan (`argsort`).
-- **Manipulasi Bentuk & Struktur**: `reshape`, Meratakan Array (`ravel`, `flatten`), Transpose (`.T`), Menambah Dimensi (`newaxis`, `expand_dims`), Menghapus Dimensi (`squeeze`), Concatenation, Stacking (`vstack`, `hstack`), Splitting, `append`, `insert`, `delete`.
-- **Operasi Matematika & Statistik**: Aritmatika Element-wise, Broadcasting, Universal Functions (`sqrt`, `exp`), Trigonometri (`sin`, `cos`, `tan`), Logaritma, Agregasi (`sum`, `mean`, `median`), Varians & Deviasi (`var`, `std`), Operasi Axis, Pembulatan (`round`, `ceil`, `floor`), Perkalian Matriks (`dot`, `@`).
-- **Aljabar Linear & Manajemen Data**: Nilai Unik (`unique`), Operasi Himpunan (`intersect1d`, `union1d`), Penanganan NaN (`isnan`, `nanmean`), Invers Matriks (`linalg.inv`), Determinan (`linalg.det`), Eigenvalues & Eigenvectors (`linalg.eig`), Sistem Persamaan Linear (`linalg.solve`), Format Teks (`savetxt`, `loadtxt`), Format Biner (`.npy`), Manajemen Memori (*View* vs *Copy*).
-- **Aljabar Linear Lanjutan & Komputasi Ilmiah**: Singular Value Decomposition (`linalg.svd`), QR Decomposition (`linalg.qr`), Cholesky Decomposition (`linalg.cholesky`), Norm Vektor & Matriks (L1, L2, Frobenius), Bilangan Kondisi Matriks (`linalg.cond`), Moore-Penrose Pseudoinverse (`linalg.pinv`), Polynomial Fitting (`np.polyfit`, `poly1d`), Fast Fourier Transform 1D (`np.fft.fft`), Histogram Numerik 1D & 2D, Cumulative Sum & Product (`cumsum`, `cumprod`), Pembatasan Nilai (`np.clip`), Trace & Diagonal Matriks, Matriks Segitiga (`triu`, `tril`), Outer Product, Kronecker Product, Notasi Einstein Summation (`np.einsum`), Masked Array (`numpy.ma`), Distribusi Statistik (Poisson, Probabilitas Berbobot), Structured Arrays (Record Array), Grid Koordinat 2D (`np.meshgrid`), Vektorisasi Fungsi (`np.vectorize`), Gradien Numerik (`np.gradient`), Interpolasi Linier 1D (`np.interp`), Operasi Bitwise.
+- **Array Creation Fundamentals:** NumPy initialization, 1D/2D/3D array construction, dimensional attributes (`ndim`, `shape`, `size`, `dtype`), array constructors (`zeros`, `ones`, `empty`, `full`, `arange`, `linspace`), and pseudo-random generators (`rand`, `randn`, `randint`).
+- **Indexing, Slicing & Selection:** Multidimensional indexing, matrix slicing, boolean masking, fancy indexing, conditional filters (`np.where`), positional searches (`argwhere`, `nonzero`), extrema discovery (`argmax`, `argmin`), and sorting (`argsort`).
+- **Shape & Dimensional Transformations:** Reshaping (`reshape`), memory flattening (`ravel`, `flatten`), transposition (`.T`), axis expansion (`newaxis`, `expand_dims`), squeeze operations, concatenation, multidimensional stacking (`vstack`, `hstack`), splitting, and array mutations (`append`, `insert`, `delete`).
+- **Mathematical & Statistical Computing:** Element-wise arithmetic, multidimensional broadcasting, universal functions (`sqrt`, `exp`), trigonometry (`sin`, `cos`, `tan`), logarithmic transforms, aggregations (`sum`, `mean`, `median`), variance & standard deviation (`var`, `std`), axis reductions, numerical rounding, and matrix multiplications (`dot`, `@`).
+- **Linear Algebra & Memory Management:** Unique values (`unique`), set logic (`intersect1d`, `union1d`), NaN auditing (`isnan`, `nanmean`), matrix inversion (`linalg.inv`), determinants (`linalg.det`), eigensystems (`linalg.eig`), linear solvers (`linalg.solve`), I/O persistence (`savetxt`, `loadtxt`, `.npy`), and memory view vs. copy semantics.
+- **Advanced Scientific Computing:** Singular Value Decomposition (`linalg.svd`), QR Decomposition (`linalg.qr`), Cholesky Decomposition (`linalg.cholesky`), vector & matrix norms ($L_1$, $L_2$, Frobenius), condition numbers (`linalg.cond`), Moore-Penrose pseudoinverse (`linalg.pinv`), polynomial curve fitting (`np.polyfit`), 1D Fast Fourier Transform (`np.fft.fft`), 1D/2D histograms, cumulative scans (`cumsum`, `cumprod`), range clipping (`np.clip`), trace & diagonal extractions, triangular matrices (`triu`, `tril`), outer & Kronecker products, Einstein summation convention (`np.einsum`), masked arrays (`numpy.ma`), structured record arrays, 2D coordinate meshgrids (`np.meshgrid`), numerical vectorization (`np.vectorize`), numerical gradients (`np.gradient`), linear interpolation (`np.interp`), and bitwise operations.
 
 ---
 
-## 🚀 Cara Menjalankan
+## 🚀 Execution & Setup Instructions
 
-### Opsi A: Google Colab
-Klik badge **Open in Colab** di atas atau buka file `belajar-numpy.ipynb` langsung di Google Colab.
+### Option A: Google Colab
+Click the **Open in Colab** badge above or open `belajar-numpy.ipynb` directly in Google Colab.
 
-### Opsi B: Lokal / JupyterLab
+### Option B: Local JupyterLab Environment
 ```bash
 # Clone repository
-git clone https://github.com/pranataa-labs/numpy-lab.git
-cd numpy-lab
+git clone https://github.com/pranataa-labs/NumPy-Lab.git
+cd NumPy-Lab
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Jalankan JupyterLab
+# Launch JupyterLab
 jupyter lab
 ```
 
 ---
 
 <p align="center">
-  Crafted with curiosity by <a href="https://github.com/pranataa-labs"><b>pranataa-labs</b></a>.
+  Crafted with precision by <a href="https://github.com/pranataa-labs"><b>pranataa-labs</b></a>.
 </p>
